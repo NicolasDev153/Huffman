@@ -140,7 +140,7 @@ img {
 
 .bd-grid {
   display: grid;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
 }
 
 .l-header {
@@ -226,6 +226,19 @@ img {
   align-content: center;
 }
 
+.form-span{
+  background-color: green;
+}
+
+.action-inp {
+  background-color: #069c54;
+  color: white;
+  border: 0;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  font-size: 30px
+}
+
 
 /*========== BUTTONS ==========*/
 .button {
@@ -295,7 +308,7 @@ img {
   .home__container,
   .about__container,
   .app__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
   }
 
